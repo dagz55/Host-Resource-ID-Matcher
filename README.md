@@ -37,4 +37,29 @@ Ensure Python 3.* is installed.
 ```
     	python host_resource_id_matcher.py
 ```
-     
+4.	Follow prompts to provide the host file name (or press Enter to use host).
+
+5.	Review the generated host_resource_id.txt and summary in the terminal.
+
+
+## Debug Mode
+
+Could you set the DEBUG variable to True in the script to enable debug mode for detailed output?
+
+Example Output
+
+Terminal Summary:
+Summary:
+==================================================
+Total hostnames in host file: 10
+Total resource IDs found: 7
+Hosts with matching resource IDs: 7
+Hosts with NO matching resource IDs: 3
+
+Hostnames with no matching resource IDs:
+--------------------------------------------------
+- missing-host1
+- missing-host2
+- missing-host3
+
+Results have been written to host_resource_id.txt
